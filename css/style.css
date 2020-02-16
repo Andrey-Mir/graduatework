@@ -68,7 +68,9 @@ table {
 	font-size: 12px;
 	color: #353535;
 	text-decoration: none;
-
+}
+.contacts .rev{
+	left: 15px;
 }
 .contacts svg{
 	margin-right: 17px;
@@ -118,13 +120,10 @@ header .menu{
 	margin-left: 57%;
 }
 .container2{
-	background-image: url('./img/image1.png');
-	height: calc(100vh - 62px);
-	max-height: 712px;
-    background-repeat: no-repeat;
-	background-size: cover;
-	background-attachment: fixed;
-    background-position: center;
+	height: 650px;
+   }
+   .container2 .owl-carousel .owl-item img{
+	width: auto;
    }
    .container2 h3{
 	font-family: 'Open Sans', sans-serif;
@@ -133,8 +132,9 @@ header .menu{
 	color: #ffffff;
 	text-transform: uppercase;
 	text-align: center;
-	padding-top: 232px;
+	padding-bottom: 20px;
    }
+   
    .container2 h2{
 	font-family: 'Open Sans', sans-serif;
 	font-weight: bold;
@@ -142,7 +142,6 @@ header .menu{
 	color: #ffffff;
 	text-transform: uppercase;
 	text-align: center;
-	padding-top: 34px;
    }
    .container2 .btn a{
 	text-decoration: none;
@@ -154,6 +153,7 @@ header .menu{
 	background-color: #c19864;
 text-transform: uppercase;
 text-align: center;
+
 }
 .container2 .btn{
 	margin-top: 32px;
@@ -165,19 +165,20 @@ text-align: center;
 	background-color: #111111;
 	}
 	.container2 .owl-carousel{
-		margin-bottom: 50px;
+		position: relative;
 	}
-	.container2 .owl-next span{
-		color: red;
-		font-size: 40px;
+	.container2 .owl-stage{
+	position: relative;
+	to
 	}
-	.container2 .owl-prev span{
-		color: red;
-		font-size: 40px;
+	.container2 .owl-dot{
+		position: relative;
+		top: -200px
 	}
+	
 	.container3 {
 		background-image: url('./img/image11.png');
-		height: 528px; ; 
+		height: 629px; ; 
 	background-repeat: no-repeat;
 	background-position: right bottom;
 	}
@@ -187,7 +188,7 @@ text-align: center;
 	font-size: 18px;
 	color: #353535;
 	text-transform: uppercase;
-	padding-top: 108px;
+	padding-top: 200px;
 	padding-bottom: 33px;
 	}
 	.container3 i{
@@ -340,6 +341,7 @@ text-align: center;
 	background-size: contain;
 	margin-bottom: 116px;
 	margin-top: 124px;
+
 	}
 	.container7 h2{
 		font-family: 'Open Sans', sans-serif;
@@ -535,7 +537,7 @@ form.catalin{
 		height: 1px;
 		background-color: #554837;
 		display: block;
-		width: 1200px;
+		width: 100%;
 		margin-top: 50px;
 	}
 	  .container8 .copiraiter{
@@ -550,5 +552,124 @@ form.catalin{
 	  .container8 .container{
 		  max-width: 1200px;
 	  }
-  
-  
+
+
+
+
+
+	 
+	@media(max-width: 1105px){
+header .menu{
+	display: none;
+	background-color: rgba( 0, 0, 0, 0.5);
+	width: 100%;
+	height: 100vh;
+	position: relative;
+	top: -114px;
+}
+header .menu ul{
+	display: block;
+	justify-content: space-between;
+	text-align: center;
+}
+header .burger{
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	right: 0px;
+}
+header .burger i{
+	display: block;
+	width: 80%;
+	height: 4px;
+	margin: 4px auto;
+	background-color: #c19864;
+}
+header .show{
+	display: flex;
+}
+.container4 p {
+	margin-left: 22%;
+}
+	}
+@media (max-width: 1200px){
+	.center{
+		width: 90%;
+	}
+	.container4 p {
+		margin-left: 22%;
+	}
+	.container3{
+		background-size: 50% 100%;
+		background-position-x: 100%;
+	}
+}
+
+	@media(max-width: 992px){
+		.contacts .rev{
+			right: 192px;
+		}
+		.container4 p {
+			margin-left: 14%;
+		}
+	}
+	@media (max-width: 768px){
+		.container4 p {
+			margin-left: 10%;
+		}
+		.container8 .line {
+			width: 378px;
+		}
+		.container8 .line {
+			margin-left: 32%;
+		}
+	}
+	@media(max-width: 320px){
+		.container8 .line{
+			width: 100%;
+		}
+		form.catalin{
+			width: 100%;
+		  }
+		  .container8 a{
+			  margin-right: -3px;
+		  }
+		  .container8 p{
+			  width: 100%;
+		  }
+		  .container8 .copiraiter{
+			  margin-left: 1%;
+		  }
+		  .copiraiter8 h3{
+			  position: relative;
+			  left: 4%;
+		  }
+		  .container8 .blog{
+			  margin-left: 0%;
+		  }
+		  .container7 img{
+			  width: 100%;
+		  }
+		  .container7 h3{
+			  margin-top: 30px;
+		  }
+		  .container4 p {
+			margin-left: -2%;
+		}
+	}
+	@media (max-width: 575px){
+		.container4 p {
+			margin-left: 14%;
+		}
+	}
+	@media (max-width: 320px){
+		.container4 p {
+			margin-left: 1%;
+		}
+		}
+		@media (max-width: 375px){
+			.container4 p {
+				margin-left: 8%;
+			}
+		}

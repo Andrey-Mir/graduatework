@@ -1,0 +1,11 @@
+$color_text: brown;
+$text: 30px;
+
+
+.container4{
+    background-color: burlywood;
+    h2{
+color: $color_text;
+font-size: $text;
+    }
+}
