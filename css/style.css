@@ -120,6 +120,7 @@ header .menu{
 	margin-left: 57%;
 }
 
+
 .container2{
 	height: 650px;
    }
@@ -638,7 +639,7 @@ form.catalin{
 			width: 378px;
 		}
 		.container8 .line {
-			margin-left: 32%;
+			margin-left: 0%;
 		}
 	}
 	@media(max-width: 320px){
@@ -691,4 +692,10 @@ form.catalin{
 			.container4 p {
 				margin-left: 8%;
 			}
+			.container8 .line {
+				margin-left: -5%;
+			}
+			form.catalin{
+				width: 108%;
+			  }
 		}
