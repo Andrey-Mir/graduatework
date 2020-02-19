@@ -259,7 +259,9 @@ text-align: center;
     background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
-    background-position: center;
+	background-position: center;
+	outline-offset: -20px;
+		outline: 1px solid #a49f96;
 	}
 	.container5 h2{
 		font-family: 'Open Sans', sans-serif;
@@ -268,7 +270,7 @@ text-align: center;
 	color: #f9f4f0;
 	text-transform: uppercase;
 	text-align: center;
-	padding-top: 108px;
+	padding-top: 88px;
 	padding-bottom: 66px;
 	}
 	.container5 h3{
