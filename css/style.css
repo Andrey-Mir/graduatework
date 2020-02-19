@@ -119,6 +119,7 @@ header .menu{
 	margin-top: 5px;
 	margin-left: 57%;
 }
+
 .container2{
 	height: 650px;
    }
@@ -166,10 +167,6 @@ text-align: center;
 	}
 	.container2 .owl-carousel{
 		position: relative;
-	}
-	.container2 .owl-stage{
-	position: relative;
-	to
 	}
 	.container2 .owl-dot{
 		position: relative;
@@ -341,7 +338,12 @@ text-align: center;
 	background-size: contain;
 	margin-bottom: 116px;
 	margin-top: 124px;
-
+	}
+	.container6 img:hover{
+		-webkit-filter: grayscale(99%); 
+		filter: grayscale(99%); 
+		outline-offset: -20px;
+		outline: 1px solid #a49f96;
 	}
 	.container7 h2{
 		font-family: 'Open Sans', sans-serif;
@@ -552,45 +554,26 @@ form.catalin{
 	  .container8 .container{
 		  max-width: 1200px;
 	  }
-
+	.container8 img {
+		-webkit-filter: grayscale(0%); 
+		filter: grayscale(0%); 
+	  }
+	  .container8 img:hover {
+		  cursor: pointer;
+		-webkit-filter: grayscale(99%); 
+		filter: grayscale(99%); 
+	  }
 
 
 
 
 	 
 	@media(max-width: 1105px){
-header .menu{
-	display: none;
-	background-color: rgba( 0, 0, 0, 0.5);
-	width: 100%;
-	height: 100vh;
-	position: relative;
-	top: -114px;
-}
-header .menu ul{
-	display: block;
-	justify-content: space-between;
-	text-align: center;
-}
-header .burger{
-	display: inline-block;
-	width: 30px;
-	height: 30px;
-	position: absolute;
-	right: 0px;
-}
-header .burger i{
-	display: block;
-	width: 80%;
-	height: 4px;
-	margin: 4px auto;
-	background-color: #c19864;
-}
-header .show{
-	display: flex;
-}
 .container4 p {
 	margin-left: 22%;
+}
+.container7 img{
+	width: 100%;
 }
 	}
 @media (max-width: 1200px){
@@ -604,6 +587,27 @@ header .show{
 		background-size: 50% 100%;
 		background-position-x: 100%;
 	}
+	header .menu{
+		display: none;
+	}
+	
+	header .burger{
+		display: inline-block;
+		width: 30px;
+		height: 30px;
+		position: absolute;
+		right: 10px;
+	}
+	header .burger i{
+		display: block;
+		width: 80%;
+		height: 4px;
+		margin: 4px auto;
+		background-color: #c19864;
+	}
+	header .show{
+		display: flex;
+	}
 }
 
 	@media(max-width: 992px){
@@ -612,6 +616,18 @@ header .show{
 		}
 		.container4 p {
 			margin-left: 14%;
+		}
+		.container6 img{
+			width: 100%;
+		}
+		.container6 h5{
+			margin-bottom: 30px;
+		}
+		.container3{
+			background-image: none;
+		}
+		.container3 p{
+			width: 100%;
 		}
 	}
 	@media (max-width: 768px){
@@ -661,6 +677,9 @@ header .show{
 	@media (max-width: 575px){
 		.container4 p {
 			margin-left: 14%;
+		}
+		.contacts {
+			height: 90px;
 		}
 	}
 	@media (max-width: 320px){
